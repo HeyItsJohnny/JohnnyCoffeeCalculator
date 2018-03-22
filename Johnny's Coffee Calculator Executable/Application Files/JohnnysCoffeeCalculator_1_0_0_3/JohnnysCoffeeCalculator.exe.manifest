@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="JohnnysCoffeeCalculator.exe" version="1.0.0.3" publicKeyToken="9fabebd6b2b59be5" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="JohnnysCoffeeCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="JohnnysCoffeeCalculator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="JohnnysCoffeeCalculator.exe" size="18400">
+      <assemblyIdentity name="JohnnysCoffeeCalculator" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>MijdzQvQnbhAOzN1fxj1tRhQf3JtuYxB1Ts032lB6Z4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="JohnnysCoffeeCalculator.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-9CRNCSI\jonat" issuerKeyHash="04743235b41d3e27bc947bfc41304d9330cb21f4" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>taeBRAUKx6FWjJvotBo9f0kOYZkbf6QhZNxAao/suiI=</DigestValue></Reference></SignedInfo><SignatureValue>NEvu03TEDHW49+dgN3yu+R69mjCJrhd4r977CBSbu1pmwkuD9qymsC5bJTCBlmldW2raxUFRVdcGI5ACTIBnDiQT9+QReRzGjgvNEKHtULUjc80c9MDvGO0jNbkoFdZFuJxB6eW/PRfO0iELfvcfrNpXzEpb/WHANxuof1HtZLQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>x6UNU9LwBUTYSxWRSu1d6yNuESZ0sRMvN21sv87mmhcR05h+s1diSiuLtuQwfdrUyQ519YKGSZyq0PE2p9t1IZ9bSx7sKe2v/pGOlk4vNdckczFBCd68x/+ug1MwyT9+6Q/42+4opCoSqCoN/56FftlAmsJHv0jM1S1XOT8lBxk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="22baec8f6a40dc6421a47f1b99610e497f3d1ab4e89b8c56a1c70a054481a7b5" Description="" Url=""><as:assemblyIdentity name="JohnnysCoffeeCalculator.exe" version="1.0.0.3" publicKeyToken="9fabebd6b2b59be5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-9CRNCSI\jonat</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Z8SgOEqgV2W5uueiA/R6B6nEbz3cMIXDOmNvfpCrJu4=</DigestValue></Reference></SignedInfo><SignatureValue>qJXbcI49utkpdT5MX15xQ3izKYNe9CQ4XW4voyBLR8BZlvRwFinzH62VfTyknMAGjeJmThzmS8pEK8nGO1aMsQSMXEh600Di6NluBfWkJnglecYRshrk2RnUZXnLLKJLfXkNC4T7dkm0uBnABsST4MzQhutovtAhNnQODCpsuy8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>x6UNU9LwBUTYSxWRSu1d6yNuESZ0sRMvN21sv87mmhcR05h+s1diSiuLtuQwfdrUyQ519YKGSZyq0PE2p9t1IZ9bSx7sKe2v/pGOlk4vNdckczFBCd68x/+ug1MwyT9+6Q/42+4opCoSqCoN/56FftlAmsJHv0jM1S1XOT8lBxk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQXBfo6nWRHaFBYcG1jNKrvTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADkAQwBSAE4AQwBTAEkAXABqAG8AbgBhAHQwHhcNMTgwMzIyMDQyNjQwWhcNMTkwMzIyMTAyNjQwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtADkAQwBSAE4AQwBTAEkAXABqAG8AbgBhAHQwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMelDVPS8AVE2EsVkUrtXesjbhEmdLETLzdtbL/O5poXEdOYfrNXYkori7bkMH3a1MkOdfWChkmcqtDxNqfbdSGfW0se7Cntr/6RjpZOLzXXJHMxQQnevMf/roNTMMk/fukP+NvuKKQqEqgqDf+ehX7ZQJrCR79IzNUtVzk/JQcZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAIZhsOBh9n3WTZ5tu2E9Rv+3NB9wA+jiMPGKiGs78K0LEMVox+eOiiFPABII2CqAt/fPqYU7rKNL8lq8n/rG9kmv5yjBX1GhBjokMOHPJfh7zcOBhuRZwfNFYleUxloT5O7QM+PZOFKVl34ce1Oam+hM7ionuJ9JiT8aVpua+Pf8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
